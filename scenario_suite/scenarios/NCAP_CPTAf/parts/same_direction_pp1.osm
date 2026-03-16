@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='false' generator='JOSM'>
+  <node id='-5416068' action='modify' visible='true' lat='43.43539115598' lon='-80.57976603383'>
+    <tag k='btype' v='PP' />
+    <tag k='cycles' v='1' />
+    <tag k='collision_vehicle_vid' v='1' />
+    <tag k='gs' v='pedestrian' />
+    <tag k='name' v='VRU_same' />
+    <tag k='path' v='vru_ped_path_same' />
+    <tag k='pid' v='1' />
+    <tag k='speed' v='5' />
+    <tag k='yaw' v='360' />
+  </node>
+  <node id='-5416077' action='modify' visible='true' lat='43.43539753003' lon='-80.57956279231' />
+  <way id='-1959007' action='modify' visible='true'>
+    <nd ref='-5416068' />
+    <nd ref='-5416077' />
+    <tag k='abstract' v='no' />
+    <tag k='gs' v='path' />
+    <tag k='name' v='vru_ped_path_same' />
+  </way>
+</osm>

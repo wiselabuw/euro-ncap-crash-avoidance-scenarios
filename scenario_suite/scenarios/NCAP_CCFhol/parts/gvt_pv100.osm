@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='false' generator='JOSM'>
+  <node id='-5437326' action='modify' lat='43.43603087276' lon='-80.57895756324' />
+  <node id='-5437327' action='modify' lat='43.43475419187' lon='-80.57755010783' />
+  <node id='-5437328' action='modify' lat='43.43544884127' lon='-80.5783240714' />
+  <node id='-5437329' action='modify' lat='43.43587389231' lon='-80.57878299765' />
+  <node id='-5437330' action='modify' lat='43.43527298285' lon='-80.57806655905' />
+  <node id='-5437331' action='modify' lat='43.43485796519' lon='-80.57760907519' />
+  <node id='-5437332' action='modify' lat='43.43623325511' lon='-80.57918036401'>
+    <tag k='btype' v='PV' />
+    <tag k='cycles' v='1' />
+    <tag k='gs' v='vehicle' />
+    <tag k='name' v='GVT' />
+    <tag k='path' v='lane_change' />
+    <tag k='speed' v='100' />
+    <tag k='vid' v='3' />
+    <tag k='yaw' v='45' />
+  </node>
+  <node id='-5437333' action='modify' lat='43.43622621737' lon='-80.57917129409' />
+  <node id='-5437334' action='modify' lat='43.43478278489' lon='-80.5775263537' />
+  <node id='-5437335' action='modify' lat='43.43467665581' lon='-80.5774106809' />
+  <node id='-5437336' action='modify' lat='43.43513432698' lon='-80.57791509626' />
+  <node id='-5437337' action='modify' lat='43.43603936111' lon='-80.57896568365'>
+    <tag k='btype' v='PV' />
+    <tag k='cycles' v='1' />
+    <tag k='goal_ends_simulation' v='yes' />
+    <tag k='gs' v='vehicle' />
+    <tag k='name' v='SOV' />
+    <tag k='path' v='sov_path' />
+    <tag k='speed' v='100' />
+    <tag k='vid' v='2' />
+    <tag k='yaw' v='50' />
+  </node>
+  <node id='-5437338' action='modify' lat='43.43508203288' lon='-80.57786114766' />
+  <node id='-5437407' action='modify' lat='43.43525378488' lon='-80.57810633107' />
+  <node id='-5437496' action='modify' lat='43.4346511184' lon='-80.57743773086' />
+  <way id='-1962533' action='modify'>
+    <nd ref='-5437326' />
+    <nd ref='-5437328' />
+    <nd ref='-5437407' />
+    <nd ref='-5437327' />
+    <nd ref='-5437496' />
+    <tag k='gs' v='path' />
+    <tag k='name' v='sov_path' />
+  </way>
+  <way id='-1962534' action='modify'>
+    <nd ref='-5437333' />
+    <nd ref='-5437329' />
+    <nd ref='-5437330' />
+    <nd ref='-5437336' />
+    <nd ref='-5437338' />
+    <nd ref='-5437331' />
+    <nd ref='-5437334' />
+    <nd ref='-5437335' />
+    <tag k='abstract' v='no' />
+    <tag k='gs' v='path' />
+    <tag k='name' v='lane_change' />
+  </way>
+</osm>

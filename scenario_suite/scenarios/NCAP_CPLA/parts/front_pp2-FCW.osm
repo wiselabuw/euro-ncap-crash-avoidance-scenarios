@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='false' generator='JOSM'>
+  <node id='-5403333' action='modify' visible='true' lat='43.47422561221' lon='-80.5423659872'>
+    <tag k='btype' v='PP' />
+    <tag k='cycles' v='1' />
+    <tag k='gs' v='pedestrian' />
+    <tag k='name' v='ped_FCW' />
+    <tag k='path' v='ped_path_FCW' />
+    <tag k='pid' v='2' />
+    <tag k='speed' v='5' />
+    <tag k='start' v='yes' />
+    <tag k='yaw' v='240' />
+  </node>
+  <node id='-5403334' action='modify' visible='true' lat='43.4742257163' lon='-80.54236729371' />
+  <node id='-5403335' action='modify' visible='true' lat='43.47434016305' lon='-80.54244000231' />
+  <way id='-1958601' action='modify' visible='true'>
+    <nd ref='-5403334' />
+    <nd ref='-5403335' />
+    <tag k='abstract' v='no' />
+    <tag k='gs' v='path' />
+    <tag k='name' v='ped_path_FCW' />
+  </way>
+</osm>

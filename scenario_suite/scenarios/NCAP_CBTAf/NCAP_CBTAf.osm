@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='false' generator='JOSM'>
+  <node id='-5416196' action='modify' lat='43.43537155842' lon='-80.57966513718'>
+    <tag k='altitude' v='300' />
+    <tag k='area' v='40' />
+    <tag k='gs' v='origin' />
+  </node>
+  <node id='-5416197' action='modify' lat='43.43533942806' lon='-80.5795432109'>
+    <tag k='collision' v='yes' />
+    <tag k='gs' v='globalconfig' />
+    <tag k='lanelet' v='maps/ll2_firetower_4waystop.osm' />
+    <tag k='mutate' v='no' />
+    <tag k='name' v='Car to Bicyclist Turning Adult farside' />
+    <tag k='timeout' v='20' />
+    <tag k='version' v='2.0' />
+  </node>
+</osm>

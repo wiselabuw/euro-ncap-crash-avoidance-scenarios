@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='false' generator='JOSM'>
+  <node id='-5407497' action='modify' lat='43.45473819548' lon='-80.57023722616'>
+    <tag k='collision' v='yes' />
+    <tag k='gs' v='globalconfig' />
+    <tag k='lanelet' v='maps/ParadiseCr.osm' />
+    <tag k='mutate' v='no' />
+    <tag k='name' v='NCAP_CBC' />
+    <tag k='timeout' v='30' />
+    <tag k='version' v='2.0' />
+  </node>
+  <node id='-5407498' action='modify' lat='43.45478254368' lon='-80.56979648445'>
+    <tag k='altitude' v='320' />
+    <tag k='area' v='50' />
+    <tag k='gs' v='origin' />
+    <tag k='name' v='origin' />
+  </node>
+</osm>

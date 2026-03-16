@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='false' generator='JOSM'>
+  <node id='-5400059' action='modify' lat='43.47116435012' lon='-80.53870423545'>
+    <tag k='area' v='no' />
+    <tag k='continuous' v='no' />
+    <tag k='gs' v='location' />
+    <tag k='name' v='ped_3_dest' />
+  </node>
+  <node id='-5400061' action='modify' lat='43.4710656038' lon='-80.53884704999'>
+    <tag k='btype' v='PP' />
+    <tag k='collision_vehicle_vid' v='1' />
+    <tag k='gs' v='pedestrian' />
+    <tag k='name' v='ped_left' />
+    <tag k='path' v='left_ped_path' />
+    <tag k='pid' v='3' />
+    <tag k='speed' v='5' />
+  </node>
+  <node id='-5400078' action='modify' lat='43.471069557' lon='-80.53884117961' />
+  <node id='-5400079' action='modify' lat='43.47115555479' lon='-80.53873749234' />
+  <way id='-1958365' action='modify'>
+    <nd ref='-5400078' />
+    <nd ref='-5400079' />
+    <tag k='abstract' v='no' />
+    <tag k='gs' v='path' />
+    <tag k='name' v='left_ped_path' />
+  </way>
+</osm>

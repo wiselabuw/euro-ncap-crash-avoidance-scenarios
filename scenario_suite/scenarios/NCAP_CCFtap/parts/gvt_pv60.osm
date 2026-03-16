@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='false' generator='JOSM'>
+  <node id='-5437690' action='modify' lat='43.43549632318' lon='-80.57970058439'>
+    <tag k='btype' v='PV' />
+    <tag k='can_reverse' v='no' />
+    <tag k='collision_vehicle_vid' v='1' />
+    <tag k='gs' v='vehicle' />
+    <tag k='name' v='GVT' />
+    <tag k='path' v='gvt_path' />
+    <tag k='speed' v='60' />
+    <tag k='vid' v='2' />
+    <tag k='yaw' v='86' />
+  </node>
+  <node id='-5437691' action='modify' lat='43.43548505314' lon='-80.57969840911' />
+  <node id='-5437692' action='modify' lat='43.43547053209' lon='-80.57969698711' />
+  <node id='-5437693' action='modify' lat='43.43543654558' lon='-80.5796949677' />
+  <node id='-5437694' action='modify' lat='43.43539626613' lon='-80.57969434386' />
+  <node id='-5437695' action='modify' lat='43.43526787411' lon='-80.57969279849' />
+  <node id='-5437696' action='modify' lat='43.43507113547' lon='-80.5796671998' />
+  <node id='-5437697' action='modify' lat='43.43532226003' lon='-80.57969398465'>
+    <tag k='collision_pt' v='true' />
+  </node>
+  <way id='-1962676' action='modify'>
+    <nd ref='-5437691' />
+    <nd ref='-5437692' />
+    <nd ref='-5437693' />
+    <nd ref='-5437694' />
+    <nd ref='-5437697' />
+    <nd ref='-5437695' />
+    <nd ref='-5437696' />
+    <tag k='gs' v='path' />
+    <tag k='name' v='gvt_path' />
+  </way>
+</osm>

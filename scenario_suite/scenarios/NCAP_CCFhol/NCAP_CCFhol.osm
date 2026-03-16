@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='false' generator='JOSM'>
+  <node id='-5432624' action='modify' lat='43.43543371156' lon='-80.57979051079'>
+    <tag k='collision' v='yes' />
+    <tag k='gs' v='globalconfig' />
+    <tag k='lanelet' v='maps/ll2_firetower_4waystop.osm' />
+    <tag k='name' v='Car to Car Front head on lane change' />
+    <tag k='timeout' v='17' />
+    <tag k='version' v='2.0' />
+  </node>
+  <node id='-5432625' action='modify' lat='43.43544900144' lon='-80.578543632'>
+    <tag k='altitude' v='329' />
+    <tag k='area' v='80' />
+    <tag k='gs' v='origin' />
+  </node>
+</osm>

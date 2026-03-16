@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='false' generator='JOSM'>
+  <node id='-5423933' action='modify' visible='true' lat='43.43528500503' lon='-80.57988763766'>
+    <tag k='btype' v='PV' />
+    <tag k='cycles' v='1' />
+    <tag k='goal_ends_simulation' v='yes' />
+    <tag k='gs' v='vehicle' />
+    <tag k='name' v='VUT' />
+    <tag k='path' v='path_25' />
+    <tag k='speed' v='25' />
+    <tag k='vid' v='1' />
+    <tag k='yaw' v='360' />
+  </node>
+  <node id='-5423934' action='modify' visible='true' lat='43.43529334034' lon='-80.57974178993' />
+  <node id='-5423935' action='modify' visible='true' lat='43.43529677253' lon='-80.57971275542' />
+  <node id='-5423936' action='modify' visible='true' lat='43.43530156072' lon='-80.57969043486'>
+    <tag k='elevation' v='341.79399486' />
+  </node>
+  <node id='-5423937' action='modify' visible='true' lat='43.43531050128' lon='-80.57967089172' />
+  <node id='-5423938' action='modify' visible='true' lat='43.43532373972' lon='-80.57965063509' />
+  <node id='-5423939' action='modify' visible='true' lat='43.43533697815' lon='-80.57964185722' />
+  <node id='-5423940' action='modify' visible='true' lat='43.43534874564' lon='-80.57963848111' />
+  <node id='-5423941' action='modify' visible='true' lat='43.435363455' lon='-80.57963713067' />
+  <node id='-5423942' action='modify' visible='true' lat='43.43538208686' lon='-80.57963510501' />
+  <node id='-5423943' action='modify' visible='true' lat='43.43550564533' lon='-80.57964725899' />
+  <way id='-1959301' action='modify' visible='true'>
+    <nd ref='-5423933' />
+    <nd ref='-5423934' />
+    <nd ref='-5423935' />
+    <nd ref='-5423936' />
+    <nd ref='-5423937' />
+    <nd ref='-5423938' />
+    <nd ref='-5423939' />
+    <nd ref='-5423940' />
+    <nd ref='-5423941' />
+    <nd ref='-5423942' />
+    <nd ref='-5423943' />
+    <tag k='abstract' v='no' />
+    <tag k='gs' v='path' />
+    <tag k='name' v='path_25' />
+  </way>
+</osm>

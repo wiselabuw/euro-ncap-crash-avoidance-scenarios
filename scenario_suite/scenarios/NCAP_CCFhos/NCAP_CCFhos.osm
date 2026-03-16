@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='false' generator='JOSM'>
+  <node id='-5402536' action='modify' visible='true' lat='43.45482024528' lon='-80.57009078117'>
+    <tag k='collision' v='yes' />
+    <tag k='gs' v='globalconfig' />
+    <tag k='lanelet' v='maps/ParadiseCr.osm' />
+    <tag k='mutate' v='no' />
+    <tag k='name' v='Car to Car Front head on straight' />
+    <tag k='timeout' v='20' />
+    <tag k='version' v='2.0' />
+  </node>
+  <node id='-5402537' action='modify' visible='true' lat='43.45449152034' lon='-80.56838162412'>
+    <tag k='altitude' v='300' />
+    <tag k='area' v='90' />
+    <tag k='gs' v='origin' />
+  </node>
+  <node id='-5402539' action='modify' visible='true' lat='43.45395527629' lon='-80.5675970876' />
+  <node id='-5402540' action='modify' visible='true' lat='43.45437568299' lon='-80.56805609996' />
+  <node id='-5402542' action='modify' visible='true' lat='43.4549243615' lon='-80.56866807709' />
+  <node id='-5402543' action='modify' visible='true' lat='43.45383288938' lon='-80.56745941538' />
+  <node id='-5402547' action='modify' visible='true' lat='43.45360847523' lon='-80.56721456369' />
+  <node id='-5402601' action='modify' visible='true' lat='43.45446917191' lon='-80.56816065212' />
+  <node id='-5402602' action='modify' visible='true' lat='43.45456361352' lon='-80.5682651912' />
+  <way id='-1958520' action='modify' visible='true'>
+    <nd ref='-5402547' />
+    <nd ref='-5402539' />
+    <nd ref='-5402540' />
+    <nd ref='-5402601' />
+    <nd ref='-5402602' />
+    <tag k='gs' v='path' />
+    <tag k='name' v='vut_path' />
+  </way>
+  <way id='-1958521' action='modify' visible='true'>
+    <nd ref='-5402542' />
+    <nd ref='-5402543' />
+    <tag k='abstract' v='no' />
+    <tag k='gs' v='path' />
+    <tag k='name' v='gvt_path' />
+  </way>
+</osm>

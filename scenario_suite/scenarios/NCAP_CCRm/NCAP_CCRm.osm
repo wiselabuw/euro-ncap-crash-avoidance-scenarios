@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='false' generator='JOSM'>
+  <node id='-5402426' action='modify' lat='43.47169299867' lon='-80.54007110225'>
+    <tag k='collision' v='yes' />
+    <tag k='gs' v='globalconfig' />
+    <tag k='lanelet' v='maps/lanelet2_ringroad.osm' />
+    <tag k='mutate' v='no' />
+    <tag k='name' v='Car to Car Rear moving' />
+    <tag k='timeout' v='10' />
+    <tag k='version' v='2.0' />
+  </node>
+  <node id='-5402427' action='modify' lat='43.47175075147' lon='-80.53981583217'>
+    <tag k='area' v='50' />
+    <tag k='gs' v='origin' />
+  </node>
+  <node id='-5402428' action='modify' lat='43.47153554828' lon='-80.53947986797' />
+  <node id='-5402429' action='modify' lat='43.47122705078' lon='-80.5389556815' />
+  <node id='-5402430' action='modify' lat='43.47185278532' lon='-80.53997825007' />
+  <node id='-5402431' action='modify' lat='43.47200294406' lon='-80.5401882857' />
+  <node id='-5402432' action='modify' lat='43.47144062551' lon='-80.53932198563' />
+  <node id='-5402433' action='modify' lat='43.47172203304' lon='-80.5397759241' />
+  <node id='-5402434' action='modify' lat='43.47200591847' lon='-80.54018867552' />
+  <node id='-5402435' action='modify' lat='43.47131083566' lon='-80.53910008324' />
+  <node id='-5402500' action='modify' lat='43.47137659607' lon='-80.53921368057' />
+  <node id='-5402505' action='modify' lat='43.47210602179' lon='-80.54032001999' />
+  <way id='-1958465' action='modify'>
+    <nd ref='-5402429' />
+    <nd ref='-5402435' />
+    <nd ref='-5402428' />
+    <nd ref='-5402430' />
+    <nd ref='-5402431' />
+    <tag k='gs' v='path' />
+    <tag k='name' v='drive_path' />
+  </way>
+  <way id='-1958466' action='modify'>
+    <nd ref='-5402500' />
+    <nd ref='-5402432' />
+    <nd ref='-5402433' />
+    <nd ref='-5402434' />
+    <nd ref='-5402505' />
+    <tag k='abstract' v='no' />
+    <tag k='gs' v='path' />
+    <tag k='name' v='slow_path' />
+  </way>
+</osm>

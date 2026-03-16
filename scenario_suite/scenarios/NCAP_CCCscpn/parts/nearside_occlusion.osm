@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='false' generator='JOSM'>
+  <node id='-5445980' action='modify' visible='true' lat='43.45460381947' lon='-80.57007368292'>
+    <tag k='btype' v='NV' />
+    <tag k='gs' v='vehicle' />
+    <tag k='name' v='block2' />
+    <tag k='vid' v='4' />
+    <tag k='yaw' v='150' />
+  </node>
+  <node id='-5445981' action='modify' visible='true' lat='43.45462969738' lon='-80.57001580724'>
+    <tag k='btype' v='NV' />
+    <tag k='gs' v='vehicle' />
+    <tag k='name' v='block3' />
+    <tag k='vid' v='5' />
+    <tag k='yaw' v='150' />
+  </node>
+  <node id='-5445986' action='modify' visible='true' lat='43.45457777288' lon='-80.57013156718'>
+    <tag k='btype' v='NV' />
+    <tag k='gs' v='vehicle' />
+    <tag k='name' v='block1' />
+    <tag k='vid' v='3' />
+    <tag k='yaw' v='150' />
+  </node>
+</osm>

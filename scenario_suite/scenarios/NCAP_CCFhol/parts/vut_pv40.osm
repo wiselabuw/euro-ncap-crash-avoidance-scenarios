@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='false' generator='JOSM'>
+  <node id='-5437116' action='modify' lat='43.43516515434' lon='-80.5779454951'>
+    <tag k='btype' v='PV' />
+    <tag k='cycles' v='1' />
+    <tag k='goal_ends_simulation' v='no' />
+    <tag k='gs' v='vehicle' />
+    <tag k='name' v='VUT' />
+    <tag k='path' v='vut_path' />
+    <tag k='speed' v='40' />
+    <tag k='vid' v='1' />
+    <tag k='yaw' v='230' />
+  </node>
+  <node id='-5437121' action='modify' lat='43.43518046374' lon='-80.5779638521' />
+  <node id='-5437122' action='modify' lat='43.43622949572' lon='-80.5791155692' />
+  <way id='-1962367' action='modify'>
+    <nd ref='-5437121' />
+    <nd ref='-5437122' />
+    <tag k='gs' v='path' />
+    <tag k='name' v='vut_path' />
+  </way>
+</osm>

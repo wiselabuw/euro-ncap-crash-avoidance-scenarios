@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='JOSM'>
+  <node id='-5416442' action='modify' visible='true' lat='43.45479445999' lon='-80.56968638064' />
+  <node id='-5416443' action='modify' visible='true' lat='43.45479433903' lon='-80.56968679887' />
+  <node id='-5416444' action='modify' visible='true' lat='43.45479441789' lon='-80.56968629104'>
+    <tag k='btype' v='PV' />
+    <tag k='cycles' v='1' />
+    <tag k='gs' v='vehicle' />
+    <tag k='length' v='4.3' />
+    <tag k='name' v='v_CBNAO_long' />
+    <tag k='path' v='v_CBNAO_long_path' />
+    <tag k='speed' v='1' />
+    <tag k='vid' v='10' />
+    <tag k='width' v='1.9' />
+    <tag k='yaw' v='330' />
+  </node>
+  <node id='-5416445' action='modify' visible='true' lat='43.45481675129' lon='-80.56963664821'>
+    <tag k='btype' v='PV' />
+    <tag k='cycles' v='1' />
+    <tag k='gs' v='vehicle' />
+    <tag k='length' v='4.1' />
+    <tag k='name' v='v_CBNAO_short' />
+    <tag k='path' v='v_CBNAO_short_path' />
+    <tag k='speed' v='1' />
+    <tag k='vid' v='20' />
+    <tag k='width' v='1.9' />
+    <tag k='yaw' v='330' />
+  </node>
+  <node id='-5416446' action='modify' visible='true' lat='43.45481644919' lon='-80.5696371337' />
+  <node id='-5416447' action='modify' visible='true' lat='43.45481659426' lon='-80.56963680061' />
+  <node id='-5416448' action='modify' visible='true' lat='43.45481845523' lon='-80.5696378706' />
+  <way id='-1959203' action='modify' visible='true'>
+    <nd ref='-5416443' />
+    <nd ref='-5416442' />
+    <tag k='abstract' v='no' />
+    <tag k='gs' v='path' />
+    <tag k='name' v='v_CBNAO_long_path' />
+  </way>
+  <way id='-1959204' action='modify' visible='true'>
+    <nd ref='-5416446' />
+    <nd ref='-5416447' />
+    <tag k='abstract' v='no' />
+    <tag k='gs' v='path' />
+    <tag k='name' v='v_CBNAO_short_path' />
+  </way>
+</osm>

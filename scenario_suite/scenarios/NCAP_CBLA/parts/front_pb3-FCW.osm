@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='false' generator='JOSM'>
+  <node id='-5403624' action='modify' visible='true' lat='43.47427037909' lon='-80.54239331719'>
+    <tag k='btype' v='PV' />
+    <tag k='cycles' v='1' />
+    <tag k='goal_ends_simulation' v='no' />
+    <tag k='gs' v='vehicle' />
+    <tag k='length' v='1.9' />
+    <tag k='name' v='bicycle_FCW' />
+    <tag k='path' v='bicycle_path_FCW' />
+    <tag k='speed' v='20' />
+    <tag k='vid' v='3' />
+    <tag k='width' v='0.5' />
+    <tag k='yaw' v='243' />
+  </node>
+  <node id='-5403625' action='modify' visible='true' lat='43.47428228176' lon='-80.54240183772'>
+    <tag k='agentspeed' v='1' />
+  </node>
+  <node id='-5403626' action='modify' visible='true' lat='43.47433313861' lon='-80.54243219211'>
+    <tag k='agentspeed' v='15' />
+  </node>
+  <node id='-5403627' action='modify' visible='true' lat='43.4744445907' lon='-80.54250195395'>
+    <tag k='agentspeed' v='15' />
+  </node>
+  <way id='-1958574' action='modify' visible='true'>
+    <nd ref='-5403625' />
+    <nd ref='-5403626' />
+    <nd ref='-5403627' />
+    <tag k='abstract' v='no' />
+    <tag k='gs' v='path' />
+    <tag k='name' v='bicycle_path_FCW' />
+  </way>
+</osm>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='false' generator='JOSM'>
+  <node id='-5444879' action='modify' lat='43.47131551641' lon='-80.539108138'>
+    <tag k='agentspeed' v='90' />
+  </node>
+  <node id='-5444880' action='modify' lat='43.47151199683' lon='-80.53943354781'>
+    <tag k='agentacceleration' v='-4' />
+    <tag k='agentspeed' v='90' />
+    <tag k='timetoacceleration' v='0.4' />
+  </node>
+  <node id='-5444881' action='modify' lat='43.47143044414' lon='-80.53929989875'>
+    <tag k='agentspeed' v='90' />
+  </node>
+  <node id='-5444882' action='modify' lat='43.47167794177' lon='-80.53970446969'>
+    <tag k='agentspeed' v='0' />
+  </node>
+  <node id='-5444883' action='modify' lat='43.47130717817' lon='-80.53909389086'>
+    <tag k='btype' v='PV' />
+    <tag k='cycles' v='1' />
+    <tag k='goal_ends_simulation' v='no' />
+    <tag k='gs' v='vehicle' />
+    <tag k='name' v='gvt' />
+    <tag k='path' v='gvt_path' />
+    <tag k='start' v='yes' />
+    <tag k='usespeedprofile' v='yes' />
+    <tag k='vid' v='2' />
+  </node>
+  <way id='-1963073' action='modify'>
+    <nd ref='-5444879' />
+    <nd ref='-5444881' />
+    <nd ref='-5444880' />
+    <nd ref='-5444882' />
+    <tag k='abstract' v='no' />
+    <tag k='gs' v='path' />
+    <tag k='name' v='gvt_path' />
+  </way>
+</osm>

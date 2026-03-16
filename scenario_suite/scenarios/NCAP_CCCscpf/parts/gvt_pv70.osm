@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='false' generator='JOSM'>
+  <node id='-5445530' action='modify' lat='43.45500240009' lon='-80.56999068935'>
+    <tag k='btype' v='PV' />
+    <tag k='collision_vehicle_vid' v='1' />
+    <tag k='cycles' v='1' />
+    <tag k='gs' v='vehicle' />
+    <tag k='name' v='GVT' />
+    <tag k='path' v='gvt_route' />
+    <tag k='speed' v='70' />
+    <tag k='vid' v='2' />
+    <tag k='yaw' v='65' />
+  </node>
+</osm>

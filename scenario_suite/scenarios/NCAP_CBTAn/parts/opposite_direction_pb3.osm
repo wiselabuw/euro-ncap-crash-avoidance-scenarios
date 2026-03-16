@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='false' generator='JOSM'>
+  <node id='-5416215' action='modify' visible='true' lat='43.43527311305' lon='-80.57944631635'>
+    <tag k='btype' v='PV' />
+    <tag k='cycles' v='1' />
+    <tag k='goal_ends_simulation' v='no' />
+    <tag k='gs' v='vehicle' />
+    <tag k='length' v='1.9' />
+    <tag k='name' v='bicycle_3' />
+    <tag k='path' v='vru_bicycle_path_opposite' />
+    <tag k='speed' v='13' />
+    <tag k='vid' v='3' />
+    <tag k='width' v='0.5' />
+    <tag k='yaw' v='180' />
+  </node>
+  <node id='-5416216' action='modify' visible='true' lat='43.43524884256' lon='-80.57986427815' />
+  <way id='-1959072' action='modify' visible='true'>
+    <nd ref='-5416215' />
+    <nd ref='-5416216' />
+    <tag k='abstract' v='no' />
+    <tag k='gs' v='path' />
+    <tag k='name' v='vru_bicycle_path_opposite' />
+  </way>
+</osm>

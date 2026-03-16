@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='false' generator='JOSM'>
+  <node id='-5403429' action='modify' visible='true' lat='43.47405991615' lon='-80.54225311023'>
+    <tag k='btype' v='PV' />
+    <tag k='cycles' v='1' />
+    <tag k='gs' v='vehicle' />
+    <tag k='name' v='VUT60' />
+    <tag k='path' v='forward_path' />
+    <tag k='speed' v='60' />
+    <tag k='vid' v='1' />
+    <tag k='yaw' v='240' />
+  </node>
+  <node id='-5403449' action='modify' visible='true' lat='43.47407340845' lon='-80.54226443693' />
+  <node id='-5403450' action='modify' visible='true' lat='43.47415963307' lon='-80.54232009283' />
+  <node id='-5403451' action='modify' visible='true' lat='43.47422612811' lon='-80.54236309795' />
+  <node id='-5403452' action='modify' visible='true' lat='43.47434634846' lon='-80.54244084959' />
+  <way id='-1958388' action='modify' visible='true'>
+    <nd ref='-5403449' />
+    <nd ref='-5403450' />
+    <nd ref='-5403451' />
+    <nd ref='-5403452' />
+    <tag k='gs' v='path' />
+    <tag k='name' v='forward_path' />
+  </way>
+</osm>

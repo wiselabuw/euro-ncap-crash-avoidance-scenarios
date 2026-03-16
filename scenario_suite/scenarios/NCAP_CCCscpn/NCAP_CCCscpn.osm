@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='false' generator='JOSM'>
+  <node id='-5477558' action='modify' lat='43.45482024528' lon='-80.57009078117'>
+    <tag k='collision' v='yes' />
+    <tag k='gs' v='globalconfig' />
+    <tag k='lanelet' v='maps/ParadiseCr.osm' />
+    <tag k='mutate' v='no' />
+    <tag k='name' v='Car to Car Crossing straight crossing path nearside' />
+    <tag k='timeout' v='15' />
+    <tag k='version' v='2.0' />
+  </node>
+  <node id='-5477559' action='modify' lat='43.45470484605' lon='-80.56990194724'>
+    <tag k='altitude' v='300' />
+    <tag k='area' v='60' />
+    <tag k='gs' v='origin' />
+  </node>
+  <node id='-5477560' action='modify' lat='43.45462495701' lon='-80.56964784356' />
+  <node id='-5477561' action='modify' lat='43.45464207406' lon='-80.56965959083' />
+  <node id='-5477562' action='modify' lat='43.45521497572' lon='-80.57005315471' />
+  <node id='-5477563' action='modify' lat='43.45476237636' lon='-80.56974404843'>
+    <tag k='collision_pt' v='true' />
+  </node>
+  <node id='-5477564' action='modify' lat='43.45454907207' lon='-80.570245229' />
+  <node id='-5477565' action='modify' lat='43.45466425503' lon='-80.56999136629' />
+  <node id='-5477566' action='modify' lat='43.4548199647' lon='-80.56963937204' />
+  <node id='-5477567' action='modify' lat='43.45495117045' lon='-80.56927888776' />
+  <node id='-5477568' action='modify' lat='43.45499902062' lon='-80.56913604858' />
+  <node id='-5477569' action='modify' lat='43.45441422004' lon='-80.5705587604' />
+  <way id='-1964283' action='modify'>
+    <nd ref='-5477560' />
+    <nd ref='-5477561' />
+    <nd ref='-5477563' />
+    <nd ref='-5477562' />
+    <tag k='gs' v='path' />
+    <tag k='name' v='gvt_route' />
+  </way>
+  <way id='-1964284' action='modify'>
+    <nd ref='-5477569' />
+    <nd ref='-5477564' />
+    <nd ref='-5477565' />
+    <nd ref='-5477566' />
+    <nd ref='-5477567' />
+    <nd ref='-5477568' />
+    <tag k='abstract' v='no' />
+    <tag k='gs' v='path' />
+    <tag k='name' v='vut_route' />
+  </way>
+</osm>

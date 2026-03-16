@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='false' generator='JOSM'>
+  <node id='-5432495' action='modify' lat='43.43527010549' lon='-80.57962210927' />
+  <node id='-5432496' action='modify' lat='43.43532949157' lon='-80.57977448935' />
+  <node id='-5432498' action='modify' lat='43.43527746505' lon='-80.57962350691' />
+  <node id='-5432499' action='modify' lat='43.43528127186' lon='-80.57962525438' />
+  <node id='-5432500' action='modify' lat='43.43528571312' lon='-80.57962761348' />
+  <node id='-5432501' action='modify' lat='43.43529021784' lon='-80.57963040944' />
+  <node id='-5432502' action='modify' lat='43.43529503978' lon='-80.57963364228' />
+  <node id='-5432503' action='modify' lat='43.43529891003' lon='-80.57963696249' />
+  <node id='-5432504' action='modify' lat='43.4353033513' lon='-80.5796415933' />
+  <node id='-5432505' action='modify' lat='43.4353071581' lon='-80.57964622412' />
+  <node id='-5432506' action='modify' lat='43.43531058421' lon='-80.57965155393' />
+  <node id='-5432507' action='modify' lat='43.43531388344' lon='-80.57965714586' />
+  <node id='-5432508' action='modify' lat='43.43531721439' lon='-80.5796633494' />
+  <node id='-5432509' action='modify' lat='43.435320355' lon='-80.57966998982' />
+  <node id='-5432510' action='modify' lat='43.43532263908' lon='-80.57967523225' />
+  <node id='-5432511' action='modify' lat='43.43532492316' lon='-80.57968152317' />
+  <node id='-5432512' action='modify' lat='43.43532746102' lon='-80.57968781409' />
+  <node id='-5432513' action='modify' lat='43.4353297451' lon='-80.57969829896' />
+  <node id='-5432514' action='modify' lat='43.43533050646' lon='-80.57970354139' />
+  <node id='-5432515' action='modify' lat='43.4353315216' lon='-80.57971018181' />
+  <node id='-5432516' action='modify' lat='43.43533202918' lon='-80.57971787071' />
+  <node id='-5432517' action='modify' lat='43.43533177539' lon='-80.57972590911' />
+  <node id='-5432518' action='modify' lat='43.43533202918' lon='-80.57973569499' />
+  <node id='-5432519' action='modify' lat='43.43533177539' lon='-80.57974478187' />
+  <node id='-5432520' action='modify' lat='43.43533126782' lon='-80.57975212128' />
+  <node id='-5432521' action='modify' lat='43.43533076025' lon='-80.57976015968' />
+  <node id='-5432522' action='modify' lat='43.43528342885' lon='-80.57962630261' />
+  <node id='-5432523' action='modify' lat='43.43528806046' lon='-80.5796290112' />
+  <node id='-5432524' action='modify' lat='43.43529256517' lon='-80.57963189454' />
+  <node id='-5432525' action='modify' lat='43.43529675265' lon='-80.57963504' />
+  <node id='-5432526' action='modify' lat='43.43517746267' lon='-80.57960952651'>
+    <tag k='btype' v='PV' />
+    <tag k='cycles' v='1' />
+    <tag k='goal_ends_simulation' v='no' />
+    <tag k='gs' v='vehicle' />
+    <tag k='name' v='VUT' />
+    <tag k='path' v='vut_path' />
+    <tag k='speed' v='10' />
+    <tag k='vid' v='1' />
+    <tag k='yaw' v='266' />
+  </node>
+  <node id='-5432528' action='modify' lat='43.43529968598' lon='-80.58016737047' />
+  <node id='-5432529' action='modify' lat='43.43519944401' lon='-80.57961418488' />
+  <way id='-1961402' action='modify'>
+    <nd ref='-5432529' />
+    <nd ref='-5432495' />
+    <nd ref='-5432498' />
+    <nd ref='-5432499' />
+    <nd ref='-5432522' />
+    <nd ref='-5432500' />
+    <nd ref='-5432523' />
+    <nd ref='-5432501' />
+    <nd ref='-5432524' />
+    <nd ref='-5432502' />
+    <nd ref='-5432525' />
+    <nd ref='-5432503' />
+    <nd ref='-5432504' />
+    <nd ref='-5432505' />
+    <nd ref='-5432506' />
+    <nd ref='-5432507' />
+    <nd ref='-5432508' />
+    <nd ref='-5432509' />
+    <nd ref='-5432510' />
+    <nd ref='-5432511' />
+    <nd ref='-5432512' />
+    <nd ref='-5432513' />
+    <nd ref='-5432514' />
+    <nd ref='-5432515' />
+    <nd ref='-5432516' />
+    <nd ref='-5432517' />
+    <nd ref='-5432518' />
+    <nd ref='-5432519' />
+    <nd ref='-5432520' />
+    <nd ref='-5432521' />
+    <nd ref='-5432496' />
+    <nd ref='-5432528' />
+    <tag k='abstract' v='no' />
+    <tag k='gs' v='path' />
+    <tag k='name' v='vut_path' />
+  </way>
+</osm>

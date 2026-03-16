@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='false' generator='JOSM'>
+  <node id='-5477693' action='modify' lat='43.45482024528' lon='-80.57009078117'>
+    <tag k='collision' v='yes' />
+    <tag k='gs' v='globalconfig' />
+    <tag k='lanelet' v='maps/ParadiseCr.osm' />
+    <tag k='mutate' v='no' />
+    <tag k='name' v='Car to Car Crossing straight crossing path farside' />
+    <tag k='timeout' v='15' />
+    <tag k='version' v='2.0' />
+  </node>
+  <node id='-5477694' action='modify' lat='43.45470519212' lon='-80.56990547406'>
+    <tag k='altitude' v='300' />
+    <tag k='area' v='60' />
+    <tag k='gs' v='origin' />
+  </node>
+  <node id='-5477695' action='modify' lat='43.4549096056' lon='-80.56992062619' />
+  <node id='-5477696' action='modify' lat='43.45464198639' lon='-80.56974202737' />
+  <node id='-5477697' action='modify' lat='43.4547505527' lon='-80.56981456239'>
+    <tag k='collision_pt' v='true' />
+  </node>
+  <node id='-5477698' action='modify' lat='43.45454899034' lon='-80.57024651215' />
+  <node id='-5477699' action='modify' lat='43.45481988297' lon='-80.56964065519' />
+  <node id='-5477700' action='modify' lat='43.45495108872' lon='-80.56928017091' />
+  <node id='-5477701' action='modify' lat='43.45499893889' lon='-80.56913733173' />
+  <node id='-5477702' action='modify' lat='43.45456594558' lon='-80.56967866308' />
+  <node id='-5477703' action='modify' lat='43.45440532382' lon='-80.56950797203' />
+  <node id='-5477704' action='modify' lat='43.4546641733' lon='-80.56999264944' />
+  <node id='-5477705' action='modify' lat='43.45443413758' lon='-80.57051422936' />
+  <way id='-1964316' action='modify'>
+    <nd ref='-5477695' />
+    <nd ref='-5477697' />
+    <nd ref='-5477696' />
+    <nd ref='-5477702' />
+    <nd ref='-5477703' />
+    <tag k='gs' v='path' />
+    <tag k='name' v='gvt_route' />
+  </way>
+  <way id='-1964317' action='modify'>
+    <nd ref='-5477705' />
+    <nd ref='-5477698' />
+    <nd ref='-5477704' />
+    <nd ref='-5477699' />
+    <nd ref='-5477700' />
+    <nd ref='-5477701' />
+    <tag k='abstract' v='no' />
+    <tag k='gs' v='path' />
+    <tag k='name' v='vut_route' />
+  </way>
+</osm>
