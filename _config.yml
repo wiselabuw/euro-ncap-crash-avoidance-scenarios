@@ -1,7 +1,8 @@
 safe: true
-
+title: EURO NCAP Crash Avoidance Scenarios
 exclude:
-  - "*.bash"
   - "*.osm"
-  - scenario_suite/maps
-  - scenario_suite/scripts
+  - scenario_suite/setup.bash
+  - scenario_suite/logs/
+  - scenario_suite/maps/
+  - scenario_suite/scripts/
