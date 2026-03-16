@@ -67,7 +67,7 @@ NCAP_CPTAn
 
 ## Scenarios
 
-Scenarios with a section number, e.g., "| 3.2.3", refer to sections in [2026 Euro NCAP Crash Avoidance - Frontal Collisions Protocol, version 1.1](https://www.euroncap.com/media/91710/euro-ncap-protocol-crash-avoidance-frontal-collisions-v11.pdf).
+Scenarios with a section number, e.g., `| 3.2.3`, refer to sections in [2026 Euro NCAP Crash Avoidance - Frontal Collisions Protocol, version 1.1](https://www.euroncap.com/media/91710/euro-ncap-protocol-crash-avoidance-frontal-collisions-v11.pdf).
 
 Scenarios marked by "| (NEW)" are the additional scenarios from [Krzysztof Czarnecki "Public Crash Video Evidence for Adapting EURO NCAP
 Intersection Scenarios to North America", 28th International Technical Conference on the Enhanced Safety of Vehicles (ESV), 2026](https://tc.canada.ca/en/road-transportation/28th-international-technical-conference-enhanced-safety-vehicles-esv).
