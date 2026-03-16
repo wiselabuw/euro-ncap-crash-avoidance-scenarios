@@ -1,7 +1,20 @@
-# euro-ncap-crash-avoidance-scenarios
+# EURO NCAP Crash Avoidance Scenarios
+
+Copyright (c) 2026, University of Waterloo. All rights reserved.
 
 2026 Euro NCAP crash avoidance scenarios modeled using [GeoScenario 2](https://geoscenario2.readthedocs.io/).
 The scenarios can be executed using [GeoScenario Server](https://github.com/rodrigoqueiroz/geoscenarioserver/) traffic simulator.
+
+**Contributors**
+
+* [Michał Antkiewicz](https://uwaterloo.ca/waterloo-intelligent-systems-engineering-lab/profiles/michal-antkiewicz) (@mantkiew), 
+* [Shourrya Guha](https://uwaterloo.ca/waterloo-intelligent-systems-engineering-lab/contacts/shourrya-guha) (@ShourryaGuha)
+* [Charlie Zheng](https://uwaterloo.ca/waterloo-intelligent-systems-engineering-lab/contacts/charlie-zheng) (@zhengc84), 
+
+
+# Scenarios
+
+For the detailed description of the scenarios, see [scenario_suite/README.md](scenario_suite/README.md).
 
 # Installation
 
@@ -23,10 +36,6 @@ It contains both the standalone and ROS2 server versions.
 ## Other installation options (pip, conda, WSL2, source code)
 
 See [README.md](https://github.com/rodrigoqueiroz/geoscenarioserver/?tab=readme-ov-file#geoscenario-server).
-
-# Scenarios
-
-For the detailed description of the scenarios, see [scenario_suite/README.md](scenario_suite/README.md).
 
 # Usage
 
