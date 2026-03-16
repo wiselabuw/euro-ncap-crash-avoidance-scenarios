@@ -1,5 +1,7 @@
 safe: true
+
 title: EURO NCAP Crash Avoidance Scenarios
+
 exclude:
   - "*.osm"
   - scenario_suite/setup.bash

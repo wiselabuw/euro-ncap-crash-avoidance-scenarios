@@ -39,9 +39,14 @@ See [README.md](https://github.com/rodrigoqueiroz/geoscenarioserver/?tab=readme-
 
 # Usage
 
-1. source the scenario suite (provides the command `slaunch` and allows launching scenarios from any working directory):
+0. Clone this repository
 ```bash
-cd scenario_suite
+git clone https://github.com/wiselabuw/euro-ncap-crash-avoidance-scenarios/
+```
+
+1. change to and source the scenario suite (provides the command `slaunch` and allows launching scenarios from any working directory):
+```bash
+cd euro-ncap-crash-avoidance-scenarios/scenario_suite
 source setup.bash
 ```
 
