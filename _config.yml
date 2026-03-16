@@ -1,0 +1,7 @@
+safe: true
+
+exclude:
+  - "*.bash"
+  - "*.osm"
+  - scenario_suite/maps
+  - scenario_suite/scripts
