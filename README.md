@@ -7,9 +7,9 @@ The scenarios can be executed using [GeoScenario Server](https://github.com/rodr
 
 **Contributors**
 
-* [Michał Antkiewicz](https://uwaterloo.ca/waterloo-intelligent-systems-engineering-lab/profiles/michal-antkiewicz) (@mantkiew), 
-* [Shourrya Guha](https://uwaterloo.ca/waterloo-intelligent-systems-engineering-lab/contacts/shourrya-guha) (@ShourryaGuha)
-* [Charlie Zheng](https://uwaterloo.ca/waterloo-intelligent-systems-engineering-lab/contacts/charlie-zheng) (@zhengc84), 
+* [Michał Antkiewicz](https://uwaterloo.ca/waterloo-intelligent-systems-engineering-lab/profiles/michal-antkiewicz) @mantkiew
+* [Shourrya Guha](https://uwaterloo.ca/waterloo-intelligent-systems-engineering-lab/contacts/shourrya-guha) @ShourryaGuha
+* [Charlie Zheng](https://uwaterloo.ca/waterloo-intelligent-systems-engineering-lab/contacts/charlie-zheng) @zhengc84
 
 
 # Scenarios
