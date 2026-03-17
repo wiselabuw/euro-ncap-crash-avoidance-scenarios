@@ -11,6 +11,10 @@ Click on the image to watch the video of the scenario execution.
 
 [![Screenshot from NCAP CBC scenario run](NCAP_CBC-all.png)](scenario_suite/scenarios/NCAP_CBC/NCAP_CBC-slaunch-NCAP_CBC-right_pb2-left_pb3-right_pb4-occluding_pv10_pv20-occluding_pv30_pv40-occluding_pv50_pv60-vut_pv10.mp4)
 
+All example scenario runs shown in videos in this repository use a "path vehicle" VUT in order to show the collisions.
+However, for testing an actual automated driving system, the scenarios can be launched with an "external vehicle" VUT, that is, a vehicle controlled by an external system via, for example, ROS2.
+
+
 **Contributors**
 
 * [Michał Antkiewicz](https://uwaterloo.ca/waterloo-intelligent-systems-engineering-lab/profiles/michal-antkiewicz)
@@ -45,10 +49,13 @@ See [README.md](https://github.com/rodrigoqueiroz/geoscenarioserver/?tab=readme-
 
 # Usage
 
-0. Clone this repository
+0. Obtain the scenario suite
+
+Either clone the repository:
 ```bash
 git clone https://github.com/wiselabuw/euro-ncap-crash-avoidance-scenarios/
 ```
+Or download a compressed archive from the [GitHub Releases](https://github.com/wiselabuw/euro-ncap-crash-avoidance-scenarios/releases) page and extract it.
 
 1. change to and source the scenario suite (provides the command `slaunch` and allows launching scenarios from any working directory):
 ```bash
