@@ -5,7 +5,7 @@ Copyright © 2026, University of Waterloo. All rights reserved.
 2026 Euro NCAP crash avoidance scenarios modeled using [GeoScenario 2](https://geoscenario2.readthedocs.io/).
 The scenarios can be executed using [GeoScenario Server](https://uwaterloo.ca/waterloo-intelligent-systems-engineering-lab/projects/geoscenario-server/) traffic simulator.
 
-For example, in the screenshot below, the vehicle under test (VUT) `v1` is driving forward across the intersection while an occluding vehicles are blocking the view of three bicycles (`v2`, `v3`, and `v4`) entering the intersection. The bicycles adjust their speed to force a collision with the VUT.
+For example, in the screenshot below, the vehicle under test (VUT) `v1` is driving forward across the intersection while occluding vehicles are blocking the view of three bicycles (`v2`, `v3`, and `v4`) entering the intersection. The bicycles adjust their speeds to force a collision with the VUT.
 
 Click on the image to watch the video of the scenario execution.
 
