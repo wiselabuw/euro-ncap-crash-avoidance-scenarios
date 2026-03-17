@@ -3,18 +3,24 @@
 Copyright © 2026, University of Waterloo. All rights reserved.
 
 2026 Euro NCAP crash avoidance scenarios modeled using [GeoScenario 2](https://geoscenario2.readthedocs.io/).
-The scenarios can be executed using [GeoScenario Server](https://github.com/rodrigoqueiroz/geoscenarioserver/) traffic simulator.
+The scenarios can be executed using [GeoScenario Server](https://uwaterloo.ca/waterloo-intelligent-systems-engineering-lab/projects/geoscenario-server/) traffic simulator.
+
+For example, in the screenshot below, the vehicle under test (VUT) `v1` is driving forward across the intersection while an occluding vehicles are blocking the view of three bicycles (`v2`, `v3`, and `v4`) entering the intersection. The bicycles adjust their speed to force a collision with the VUT.
+
+Click on the image to watch the video of the scenario execution.
+
+[![Screenshot from NCAP CBC scenario run](NCAP_CBC-all.png)](scenario_suite/scenarios/NCAP_CBC/NCAP_CBC-slaunch-NCAP_CBC-right_pb2-left_pb3-right_pb4-occluding_pv10_pv20-occluding_pv30_pv40-occluding_pv50_pv60-vut_pv10.mp4)
 
 **Contributors**
 
-* [Michał Antkiewicz](https://uwaterloo.ca/waterloo-intelligent-systems-engineering-lab/profiles/michal-antkiewicz) @mantkiew
-* [Shourrya Guha](https://uwaterloo.ca/waterloo-intelligent-systems-engineering-lab/contacts/shourrya-guha) @ShourryaGuha
-* [Charlie Zheng](https://uwaterloo.ca/waterloo-intelligent-systems-engineering-lab/contacts/charlie-zheng) @zhengc84
+* [Michał Antkiewicz](https://uwaterloo.ca/waterloo-intelligent-systems-engineering-lab/profiles/michal-antkiewicz)
+* [Shourrya Guha](https://uwaterloo.ca/waterloo-intelligent-systems-engineering-lab/contacts/shourrya-guha)
+* [Charlie Zheng](https://uwaterloo.ca/waterloo-intelligent-systems-engineering-lab/contacts/charlie-zheng)
 
 
 # Scenarios
 
-For the detailed description of the scenarios, see [scenario_suite/README.md](scenario_suite/README.md).
+For the detailed description of the scenarios and videos of example runs, see [scenario_suite/README.md](scenario_suite/README.md).
 
 # Installation
 
