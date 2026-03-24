@@ -43,10 +43,6 @@ curl -fsSL https://wiselab.uwaterloo.ca/wise-sim/opt-geoscenarioserver-install.b
 **NOTE**: GeoScenario Server must be installed to `/opt/geoscenarioserver` because it is a conda environment which are not relocatable.
 It contains both the standalone and ROS2 server versions.
 
-## Other installation options (pip, conda, WSL2, source code)
-
-See [README.md](https://github.com/rodrigoqueiroz/geoscenarioserver/?tab=readme-ov-file#geoscenario-server).
-
 # Usage
 
 0. Obtain the scenario suite
@@ -87,9 +83,9 @@ Arguments:
 for example, launch a standalone simulation
 ```bash
 slaunch NCAP_CPC \                      # base secenario
-        occluding-v30-v40.osm \         # 3 parts
-        right-pp2.osm \
-        left-pp3.osm \
+        occluding_pv30_pv40.osm \       # 3 parts
+        right_pp2.osm \
+        left_pp3.osm \
         --dash-pos 0 0 960 1080  \      # GSS option
         --wait-for-input \              # other GSS options
         --file-log \
@@ -97,33 +93,40 @@ slaunch NCAP_CPC \                      # base secenario
 ```
 Copy and paste a single line version of the above command:
 ```bash
-slaunch NCAP_CPC occluding-v30-v40.osm right-pp2.osm left-pp3.osm --dash-pos 0 0 960 1080  --wait-for-input --file-log vut_pv30.osm
+slaunch NCAP_CPC occluding_pv30_pv40.osm right_pp2.osm left_pp3.osm --dash-pos 0 0 960 1080  --wait-for-input --file-log vut_pv30.osm
 ```
 
 for example, launch the native ROS2 server with a co-simulator
 ```bash
 slaunch NCAP_CPC \                      # base secenario
-        occluding-v30-v40.osm \         # 3 parts
-        right-pp2.osm \
-        left-pp3.osm \
+        occluding_pv30_pv40.osm \       # 3 parts
+        right_pp2.osm \
+        left_pp3.osm \
         --ros \                         # start the native ROS2 server
         --no-dash \                     # other GSS options
         vut_pv30.osm                    # VUT with speed profile pv30
 ```
 Copy and paste a single line version of the above command:
 ```bash
-slaunch NCAP_CPC occluding-v30-v40.osm right-pp2.osm left-pp3.osm --ros --no-dash vut_pv30.osm
+slaunch NCAP_CPC occluding_pv30_pv40.osm right_pp2.osm left_pp3.osm --ros --no-dash vut_pv30.osm
 ```
 
 Each scenario may optionally contain a subfolder `parts`, which contains the available scenario fragments. For example, 
 ```
-├── NCAP_CPC
-│   ├── NCAP_CPC.osm                    # base scenario: VUT driving forward across the intersection
-│   └── parts                           # scenario fragments
-│       ├── left-pp3.osm                # path pedestrian pp3 entering from the left of VUT
-│       ├── occluding-v30-v40.osm       # occluding vehicles v30 and v40 before the crosswalk
-│       ├── right-pp2.osm               # path pedestrian pp2 entering from the right of VUT
-│       └── vut_pv*.osm                 # vehicle under test (VUT) with different speed profiles
+└── NCAP_CPC
+    ├── NCAP_CPC.osm                    # base scenario: VUT driving forward across the intersection
+    └── parts                           # scenario fragments
+        ├── left_pp3.osm                # path pedestrian pp3 entering from the left of VUT
+        ├── occluding_pv30_pv40.osm     # occluding vehicles pv30 and pv40 before the crosswalk
+        ├── right_pp2.osm               # path pedestrian pp2 entering from the right of VUT
+        ├── vut_ev.osm                  # external vehicle under test (VUT)
+        ├── vut_pv10.osm                # path vehicle under test (VUT) with different speed profiles
+        ├── vut_pv20.osm
+        ├── vut_pv30.osm
+        ├── vut_pv40.osm
+        ├── vut_pv50.osm
+        └── vut_pv60.osm
+
 ```
 
 NOTE: scenario fragments cannot be run individually without a base scenario because they are missing the required elements `origin` and `globalconfig`.
