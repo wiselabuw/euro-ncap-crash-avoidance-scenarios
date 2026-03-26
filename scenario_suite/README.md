@@ -9,7 +9,7 @@ and the other agents defined by NCAP: global vehicle target (GVT), and vulnerabl
 
 Some scenarios are specific variants of more general scenarios. 
 For example, the scenario `NCAP_CPNCO` is a variant of `NCAP_CPC` with occluding vehicles and a pedestrian. 
-Such scenarios are implemented as scenario aliases, which are files that specify the base scenario (e.g., `NCAP_CPC`) and the additional parts to include (e.g., `occluding-pv30-pv40.osm`).
+Such scenarios are implemented as scenario aliases, which are files that specify the base scenario (e.g., `NCAP_CPC`) and the additional parts to include (e.g., `occluding-pv30-pv40.osm`). The alias `NCAP_CPNCO` is defined as `NCAP_CPC occluding_pv30_pv40.osm right_pp2.osm`. The aliases can be expanded by pressing `<TAB>` after typing `slaunch <alias_name>`.
 
 Each scenario also contains one or more short videos of the scenario's and its variants' runs.
 The video file name indicates the selected scenario parts.

@@ -1,6 +1,6 @@
 # EURO NCAP Crash Avoidance Scenarios
 
-Copyright © 2026, University of Waterloo. All rights reserved.
+Copyright © 2026, [Waterloo Intelligent Systems Engineering Lab](https://uwaterloo.ca/waterloo-intelligent-systems-engineering-lab/), [University of Waterloo](https://uwaterloo.ca/). All rights reserved.
 
 2026 Euro NCAP crash avoidance scenarios modeled using [GeoScenario 2](https://geoscenario2.readthedocs.io/).
 The scenarios can be executed using [GeoScenario Server](https://uwaterloo.ca/waterloo-intelligent-systems-engineering-lab/projects/geoscenario-server/) traffic simulator.
