@@ -8,8 +8,8 @@
     <tag k='name' v='VUT' />
     <tag k='path' v='path_10' />
     <tag k='speed' v='10' />
-    <tag k='vid' v='1' />
-    <tag k='yaw' v='360' />
+    <tag k='vid' v='99' />
+    <tag k='yaw' v='4' />
   </node>
   <node id='-5420670' action='modify' lat='43.43529333869' lon='-80.57974172588' />
   <node id='-5420671' action='modify' lat='43.43529677088' lon='-80.57971269137' />

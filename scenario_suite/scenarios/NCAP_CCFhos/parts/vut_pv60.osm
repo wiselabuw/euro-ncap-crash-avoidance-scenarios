@@ -8,7 +8,7 @@
     <tag k='path' v='vut_path' />
     <tag k='route' v='vut_route' />
     <tag k='speed' v='60' />
-    <tag k='vid' v='1' />
+    <tag k='vid' v='99' />
     <tag k='yaw' v='230' />
   </node>
 </osm>

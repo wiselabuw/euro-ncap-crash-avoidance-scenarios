@@ -4,7 +4,7 @@
   <node id='-5400018' action='modify' lat='43.47115290051' lon='-80.53874398667' />
   <node id='-5400019' action='modify' lat='43.47117649858' lon='-80.53870417541'>
     <tag k='btype' v='PP' />
-    <tag k='collision_vehicle_vid' v='1' />
+    <tag k='collision_vehicle_vid' v='99' />
     <tag k='gs' v='pedestrian' />
     <tag k='name' v='right_ped' />
     <tag k='path' v='right_ped_path' />

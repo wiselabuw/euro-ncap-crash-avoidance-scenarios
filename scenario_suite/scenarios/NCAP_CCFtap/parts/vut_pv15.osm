@@ -9,7 +9,7 @@
     <tag k='name' v='VUT' />
     <tag k='path' v='vut_path' />
     <tag k='speed' v='15' />
-    <tag k='vid' v='1' />
+    <tag k='vid' v='99' />
     <tag k='yaw' v='266' />
   </node>
   <node id='-5427118' action='modify' lat='43.43505656079' lon='-80.5795914632' />

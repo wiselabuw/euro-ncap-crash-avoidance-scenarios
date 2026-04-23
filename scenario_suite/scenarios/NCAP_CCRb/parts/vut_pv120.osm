@@ -8,7 +8,7 @@
     <tag k='name' v='VUT' />
     <tag k='path' v='vut_path' />
     <tag k='speed' v='120' />
-    <tag k='vid' v='1' />
+    <tag k='vid' v='99' />
   </node>
   <node id='-5440770' action='modify' lat='43.47111899901' lon='-80.53877329182' />
   <node id='-5440771' action='modify' lat='43.47167025539' lon='-80.5396941386' />

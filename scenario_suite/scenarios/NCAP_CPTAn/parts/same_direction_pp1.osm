@@ -3,7 +3,7 @@
   <node id='-5416183' action='modify' visible='true' lat='43.43525582952' lon='-80.57977683703'>
     <tag k='btype' v='PP' />
     <tag k='cycles' v='1' />
-    <tag k='collision_vehicle_vid' v='1' />
+    <tag k='collision_vehicle_vid' v='99' />
     <tag k='gs' v='pedestrian' />
     <tag k='name' v='VRU_same' />
     <tag k='path' v='vru_ped_path_same' />

@@ -4,7 +4,7 @@
     <tag k='btype' v='PV' />
     <tag k='cycles' v='1' />
     <tag k='goal_ends_simulation' v='no' />
-    <tag k='collision_vehicle_vid' v='1' />
+    <tag k='collision_vehicle_vid' v='99' />
     <tag k='gs' v='vehicle' />
     <tag k='length' v='1.9' />
     <tag k='name' v='right_bicycle_CBNAO' />
