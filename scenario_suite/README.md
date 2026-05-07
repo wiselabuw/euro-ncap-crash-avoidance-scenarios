@@ -1,14 +1,14 @@
 # 2026 Euro NCAP Crash Avoidance - Frontal Collisions Protocol
 
-This scenario suite implements many of the test scenarios described in the [2026 Euro NCAP Crash Avoidance - Frontal Collisions Protocol, version 1.1](https://www.euroncap.com/media/91710/euro-ncap-protocol-crash-avoidance-frontal-collisions-v11.pdf).
+This scenario suite implements many of the test scenarios described in the [2026 Euro NCAP Crash Avoidance - Frontal Collisions Protocol, version 1.1](https://cdn.euroncap.com/cars/assets/euro_ncap_protocol_crash_avoidance_frontal_collisions_v11_bc661b4bdc.pdf).
 
 The scenarios consist of scenario parts, which allow creating multiple scenario variants by combining different parts for a scenario run.
 In general, each scenario contains the scenario base, which defines the map, location, and common scenario elements;
 parts for the vehicle under test (VUT): path vehicle at different speeds as defined by NCAP and external vehicle for co-simulation;
 and the other agents defined by NCAP: global vehicle target (GVT), and vulnerable road user (VRU) targets (pedestrians, bicyclist, motorcyclist).
 
-Some scenarios are specific variants of more general scenarios. 
-For example, the scenario `NCAP_CPNCO` is a variant of `NCAP_CPC` with occluding vehicles and a pedestrian. 
+Some scenarios are specific variants of more general scenarios.
+For example, the scenario `NCAP_CPNCO` is a variant of `NCAP_CPC` with occluding vehicles and a pedestrian.
 Such scenarios are implemented as scenario aliases, which are files that specify the base scenario (e.g., `NCAP_CPC`) and the additional parts to include (e.g., `occluding-pv30-pv40.osm`). The alias `NCAP_CPNCO` is defined as `NCAP_CPC occluding_pv30_pv40.osm right_pp2.osm`. The aliases can be expanded by pressing `<TAB>` after typing `slaunch <alias_name>`.
 
 Each scenario also contains one or more short videos of the scenario's and its variants' runs.
@@ -18,7 +18,7 @@ The video file name indicates the selected scenario parts.
 
 ```
 $ cd scenario_suite
-$ source setup.bash       # provides the command 'slaunch' 
+$ source setup.bash       # provides the command 'slaunch'
 $ slaunch
 
 Usage: slaunch <scenario_name>|<scenario_alias> [<part_name>.osm*] [--ros] [--mock-co-sim] [<gss_options>*]
@@ -67,7 +67,7 @@ NCAP_CPTAn
 
 ## Scenarios
 
-Scenarios with a section number, e.g., `| 3.2.3`, refer to sections in [2026 Euro NCAP Crash Avoidance - Frontal Collisions Protocol, version 1.1](https://www.euroncap.com/media/91710/euro-ncap-protocol-crash-avoidance-frontal-collisions-v11.pdf).
+Scenarios with a section number, e.g., `| 3.2.3`, refer to sections in [2026 Euro NCAP Crash Avoidance - Frontal Collisions Protocol, version 1.1](https://cdn.euroncap.com/cars/assets/euro_ncap_protocol_crash_avoidance_frontal_collisions_v11_bc661b4bdc.pdf).
 
 Scenarios marked by "| (NEW)" are the additional scenarios from [Krzysztof Czarnecki "Public Crash Video Evidence for Adapting EURO NCAP
 Intersection Scenarios to North America", 28th International Technical Conference on the Enhanced Safety of Vehicles (ESV), 2026](https://tc.canada.ca/en/road-transportation/28th-international-technical-conference-enhanced-safety-vehicles-esv).
@@ -226,7 +226,7 @@ Ensured collision applied.
 ### NCAP_CCFtapo | (NEW) Car to Car Front turn across path occluded (alias)
 `slaunch NCAP_CCFtapo <gvt_pv*.osm> <vut_pv*.osm>|<vut_ev.osm>`
 
-A collision in which a vehicle travels forwards and left turns at a junction, towards a vehicle crossing the junction on a parallel path. The frontal structure of the vehicle under test strikes the side of the other vehicle. The vehicle travelling forward is occluded by a larger vehicle or a group of vehichles infront in the same lane. 
+A collision in which a vehicle travels forwards and left turns at a junction, towards a vehicle crossing the junction on a parallel path. The frontal structure of the vehicle under test strikes the side of the other vehicle. The vehicle travelling forward is occluded by a larger vehicle or a group of vehichles infront in the same lane.
 
 Ensured collision applied.
 
@@ -257,7 +257,7 @@ A collision in which a vehicle travels forwards towards another vehicle that is 
 ### NCAP_CCRs | 3.1.1.1 Car to Car Rear stationary
 `slaunch NCAP_CCRs <vut_pv*.osm>|<vut_ev.osm>`
 
-A collision in which a vehicle travels forwards towards another stationary vehicle and the frontal structure of the vehicle strikes the rear structure of the other. 
+A collision in which a vehicle travels forwards towards another stationary vehicle and the frontal structure of the vehicle strikes the rear structure of the other.
 
 #### Example run video
 [`slaunch NCAP_CCRs vut_pv60.osm`](scenarios/NCAP_CCRs/NCAP_CCRs-vut_pv60.mp4)
