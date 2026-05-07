@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm version='0.6' upload='false' generator='JOSM'>
-  <node id='-5416251' action='modify' lat='43.47405967734' lon='-80.54225307352'>    
+  <node id='-5416251' action='modify' lat='43.47405967734' lon='-80.54225307352'>
     <tag k='btype' v='PV' />
     <tag k='cycles' v='1' />
     <tag k='gs' v='vehicle' />
     <tag k='name' v='VUT60' />
     <tag k='path' v='forward_path' />
     <tag k='speed' v='60' />
-    <tag k='vid' v='1' />
+    <tag k='vid' v='99' />
     <tag k='yaw' v='240' />
   </node>
   <node id='-5416252' action='modify' lat='43.47407385974' lon='-80.54226488793' />

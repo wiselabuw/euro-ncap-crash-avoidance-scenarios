@@ -6,7 +6,7 @@
     <tag k='name' v='VUT' />
     <tag k='path' v='forward_route' />
     <tag k='speed' v='10' />
-    <tag k='vid' v='1' />
+    <tag k='vid' v='99' />
     <tag k='yaw' v='240' />
   </node>
   <node id='-5407506' action='modify' lat='43.45465198772' lon='-80.56966821151' />

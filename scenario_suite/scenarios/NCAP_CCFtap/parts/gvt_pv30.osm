@@ -3,7 +3,7 @@
   <node id='-5432635' action='modify' lat='43.43544466638' lon='-80.57969908872'>
     <tag k='btype' v='PV' />
     <tag k='can_reverse' v='no' />
-    <tag k='collision_vehicle_vid' v='1' />
+    <tag k='collision_vehicle_vid' v='99' />
     <tag k='gs' v='vehicle' />
     <tag k='name' v='GVT' />
     <tag k='path' v='gvt_path' />

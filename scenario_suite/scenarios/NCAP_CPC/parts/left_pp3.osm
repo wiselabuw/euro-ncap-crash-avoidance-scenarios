@@ -8,7 +8,7 @@
   </node>
   <node id='-5400061' action='modify' lat='43.4710656038' lon='-80.53884704999'>
     <tag k='btype' v='PP' />
-    <tag k='collision_vehicle_vid' v='1' />
+    <tag k='collision_vehicle_vid' v='99' />
     <tag k='gs' v='pedestrian' />
     <tag k='name' v='ped_left' />
     <tag k='path' v='left_ped_path' />
